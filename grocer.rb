@@ -8,7 +8,7 @@ def consolidate_cart(cart)
 					hash[name] = name_hash
 					puts "count: #{name_hash[:count]}"
 					puts "#{name}, #{name_hash}"
-				else 
+				else
 					hash[name] ||= {}
 				  puts "#{hash[name]}"
 					hash[name] = name_hash
